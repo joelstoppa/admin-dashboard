@@ -6,13 +6,30 @@
 #container {
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 5fr;
     grid-template-rows: repeat(5, 1fr);
 }
 
 #side-bar {
-    background-color: aqua;
+    background-color: rgb(215, 243, 243);
+    padding-bottom: 15vh;
     grid-row: 1 / 6;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 10% 45% 45%
+    
+}
+
+#side-bar-links-one,
+#side-bar-links-two {
+    display: grid;
+    gap: 20px;
+}
+
+#side-bar-links-two {
+    display: grid;
+    align-content: center;
 }
 
 #header {
