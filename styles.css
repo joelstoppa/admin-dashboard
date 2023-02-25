@@ -26,13 +26,25 @@ li {
     justify-content: center;
     align-items: center;
     grid-template-rows: 10% 45% 45%
-    
 }
+
+#side-bar-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#dashboardIcon {
+    width: 40px;
+}
+
 
 #side-bar-links-one,
 #side-bar-links-two {
     display: grid;
-    gap: 30px;
+    grid-template-columns: 0.1fr 1fr;
+    row-gap: 30px;
+    column-gap: 5px;
 }
 
 
