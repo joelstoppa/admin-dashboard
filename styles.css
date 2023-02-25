@@ -4,6 +4,10 @@
     font-family: "Roboto", sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 #container {
     height: 100vh;
     display: grid;
@@ -12,7 +16,7 @@
 }
 
 #side-bar {
-    background-color: rgb(215, 243, 243);
+    background-color: rgb(80, 91, 255);
     /* padding-bottom: 15vh; */
     grid-row: 1 / 6;
     display: grid;
@@ -31,6 +35,16 @@
 #side-bar-links-two {
     display: grid;
     align-content: center;
+}
+
+#side-bar-title{
+    font-size: 24px;
+}
+
+.side-bar-links,
+#side-bar-title {
+    color: white;
+    font-weight: bold;
 }
 
 #header {
