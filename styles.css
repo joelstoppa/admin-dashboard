@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 #container {
@@ -12,7 +13,7 @@
 
 #side-bar {
     background-color: rgb(215, 243, 243);
-    padding-bottom: 15vh;
+    /* padding-bottom: 15vh; */
     grid-row: 1 / 6;
     display: grid;
     justify-content: center;
@@ -24,7 +25,7 @@
 #side-bar-links-one,
 #side-bar-links-two {
     display: grid;
-    gap: 20px;
+    gap: 30px;
 }
 
 #side-bar-links-two {
