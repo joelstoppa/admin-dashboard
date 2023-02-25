@@ -8,6 +8,10 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style: none;
+}
+
 #container {
     height: 100vh;
     display: grid;
@@ -17,7 +21,6 @@ a {
 
 #side-bar {
     background-color: rgb(80, 91, 255);
-    /* padding-bottom: 15vh; */
     grid-row: 1 / 6;
     display: grid;
     justify-content: center;
@@ -32,10 +35,6 @@ a {
     gap: 30px;
 }
 
-#side-bar-links-two {
-    display: grid;
-    align-content: center;
-}
 
 #side-bar-title{
     font-size: 24px;
@@ -54,4 +53,8 @@ a {
 #main-content {
     background-color: lightgrey;
     grid-row: 2 / 6;
+}
+
+#home {
+    fill: white;
 }
