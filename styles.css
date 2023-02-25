@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+#side-bar {
+    background-color: aqua;
+    grid-row: 1 / 6;
+}
+
+#header {
+    background-color: gray;
+}
+
+#main-content {
+    background-color: lightgrey;
+    grid-row: 2 / 6;
+}
