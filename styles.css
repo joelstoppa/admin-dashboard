@@ -94,11 +94,23 @@ li {
 input {
     flex: 1;
     height: 2rem;
+    padding: 5px;
     max-width: 500px;
     border-width: 0px;
     border-radius: 15px;
     box-shadow: 0px 0px 5px var(--purple-light);
+    text-shadow: 0px 0px 5px var(--purple-light);
+    font-size: 20px;
+    color: var(--purple);
+}
 
+input:focus {
+    outline: none;
+}
+
+#header-left-bottom > div ,
+h2 , h3 {
+    color: #6d28d9;
 }
 
 #header-left-bottom {
@@ -131,7 +143,7 @@ button {
 	border:2px solid var(--purple);
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color: white;
 	font-size:17px;
     font-weight: 800;
 	padding:7px 30px;
@@ -147,8 +159,4 @@ button:hover {
 #main-content {
     background-color: lightgrey;
     grid-row: 2 / 6;
-}
-
-#home {
-    fill: white;
 }
