@@ -160,4 +160,29 @@ button:hover {
 #main-content {
     background-color: lightgrey;
     grid-row: 2 / 6;
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    overflow: auto;
+}
+
+
+#projects-title {
+    padding: 2rem 0 1rem 1rem
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(300px, 1fr));
+    padding: 1rem;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    height: 200px;
+    padding: 1rem
+}
+
+.card-text-title {
+    padding-bottom: 1rem;
 }
