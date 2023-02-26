@@ -180,11 +180,20 @@ button:hover {
 .card {
     background-color: white;
     height: 200px;
-    padding: 1rem
+    padding: 1rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
 
 .card-text-title {
     padding-bottom: 1rem;
+}
+
+.card-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 1rem;
 }
 
 .card-icons > img {
