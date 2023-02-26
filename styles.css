@@ -199,3 +199,10 @@ button:hover {
 .card-icons > img {
     width: 40px;
 }
+
+#main-content-right {
+    display: grid;
+    grid-template-rows: min-content 1fr min-content 1fr;
+    padding: 2rem 1rem 1rem 1rem;
+    gap: 2rem;
+}
