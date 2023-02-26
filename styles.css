@@ -186,3 +186,7 @@ button:hover {
 .card-text-title {
     padding-bottom: 1rem;
 }
+
+.card-icons > img {
+    width: 40px;
+}
