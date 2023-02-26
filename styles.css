@@ -4,6 +4,12 @@
     font-family: "Roboto", sans-serif;
 }
 
+:root {
+    --purple: #6d28d9;
+    --purple-light: #a78bfa;
+    --purple-very-light: #f5f3ff;
+}
+
 a {
     text-decoration: none;
 }
@@ -20,7 +26,8 @@ li {
 }
 
 #side-bar {
-    background-color: rgb(80, 91, 255);
+    background-color: var(--purple);
+    padding: 1rem;
     grid-row: 1 / 6;
     display: grid;
     justify-content: center;
@@ -37,7 +44,6 @@ li {
 #dashboardIcon {
     width: 40px;
 }
-
 
 #side-bar-links-one,
 #side-bar-links-two {
@@ -59,7 +65,9 @@ li {
 }
 
 #header {
-    background-color: gray;
+    background-color: var(--purple-very-light);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 
 #main-content {
