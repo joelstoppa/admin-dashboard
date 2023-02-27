@@ -179,10 +179,11 @@ button:hover {
 
 .card {
     background-color: white;
-    height: 200px;
+    height: 250px;
     padding: 1rem;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    border-radius: 10px;
 }
 
 .card-text-title {
@@ -205,4 +206,13 @@ button:hover {
     grid-template-rows: min-content 1fr min-content 1fr;
     padding: 2rem 1rem 1rem 1rem;
     gap: 2rem;
+}
+
+#announcements-card,
+#trending-card {
+    background-color: white;
+    display: grid;
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 10px;
 }
